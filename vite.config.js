@@ -6,7 +6,7 @@ import handlebars from "vite-plugin-handlebars";
 import viteImagemin from "vite-plugin-imagemin";
 
 const root = resolve(__dirname, "src");
-const outDir = resolve(__dirname, "dist");
+const outDir = resolve(__dirname, "docs");
 
 // 各ページのメタデータを読み込む
 const metadata = JSON.parse(fs.readFileSync(resolve(__dirname, "./src/metadata.json")));
