@@ -1,0 +1,65 @@
+/* ----------------------------------
+	各種フォルダを@useしてまとめる
+------------------------------------ */
+@use "foundation";
+
+@import url("https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:ital@0;1&display=swap");
+
+html {
+	overflow: hidden;
+}
+body {
+	background: #fbfbfb;
+	font-family: "Sorts Mill Goudy", serif;
+}
+
+nav {
+	padding-inline: 24px;
+}
+.Nav__List {
+	height: 10vh;
+	display: flex;
+	width: fit-content;
+	gap: 24px;
+	margin-left: auto;
+	align-items: center;
+}
+
+main {
+	height: 90vh;
+}
+
+section {
+	height: 100%;
+}
+
+.Section-Content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.Section-Title {
+	font-size: 10ch;
+	color: var(--section-color);
+	position: absolute;
+	right: -10vw;
+	top: 50%;
+	transform: translate(0, -50%);
+	font-style: italic;
+}
+
+.Section-Item {
+	position: relative;
+}
+
+.Section-Content > * {
+	width: 50%;
+}
+
+.Section-Content img {
+	max-width: 100%;
+	object-fit: cover;
+	height: 100%;
+}

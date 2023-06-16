@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		{{> head}}
+	</head>
+
+	<body>
+		<nav>
+			<ul class="Nav__List">
+				<li class="Nav__Items"><a href="./index.html">HOME</a></li>
+				<li class="Nav__Items"><a href="./clothes.html">CLOTHES</a></li>
+				<li class="Nav__Items"><a href="./style.html">STYLE</a></li>
+			</ul>
+		</nav>
+
+		<main data-router-wrapper>
+			<section data-router-view="Contact" class="Contact">
+				<div class="Section-Content">
+					<div class="Section-Presentation">
+						<div class="Section-Item">
+							<h1 class="Section-Title" style="--section-color: rgb(121 169 242)">STYLE</h1>
+						</div>
+					</div>
+					<img
+						src="https://images.unsplash.com/photo-1601762603339-fd61e28b698a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+						alt=""
+					/>
+				</div>
+			</section>
+		</main>
+		<script type="module" src="./main.js"></script>
+	</body>
+</html>

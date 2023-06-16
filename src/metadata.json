@@ -1,0 +1,17 @@
+{
+	"/index.html": {
+		"pageName": "top",
+		"title": "PJAX HIGHWAY DEMO",
+		"description": "PJAX HIGHWAY DEMO"
+	},
+	"/style.html": {
+		"pageName": "style",
+		"title": "STYLE | PJAX HIGHWAY DEMO",
+		"description": "PJAX HIGHWAY DEMO"
+	},
+	"/clothes.html": {
+		"pageName": "clothes",
+		"title": "CLOTHES | PJAX HIGHWAY DEMO",
+		"description": "PJAX HIGHWAY DEMO"
+	}
+}
